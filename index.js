@@ -1,7 +1,3 @@
-const encrypt = document.querySelector("#cp");
-const decrypt = document.querySelector("#dc");
-
-
 function criptografia(str, number) {
   number = number % 26;
   let lowerCase = str.toLowerCase();
